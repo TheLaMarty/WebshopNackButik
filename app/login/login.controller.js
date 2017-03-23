@@ -1,28 +1,11 @@
-/*angular.module("login").controller("loginController", ["$scope", "$location", "loginService", function ($scope, $location, loginService) {
- $scope.text = "";
-
-
- $scope.login = function () {
- loginService.login($scope.email, $scope.password)
- if (!loginService.isLoggedIn()) {
- $scope.text = "Wrong username or password!";
- }
- else{
- $location.path("/");
- }
-
- $scope.createUser = function () {
- $location.path("/register/");
-
- };
- };
-
- }]);*/
-
 angular.module("login").controller("loginController", ["$scope", "$location", "loginService",
+
     function ($scope, $location, loginService) {
         $scope.text = "";
         $scope.user = {};
+
+        $scope.login = {};
+
 
         $scope.login = function () {
 
@@ -32,13 +15,16 @@ angular.module("login").controller("loginController", ["$scope", "$location", "l
             };
 
             loginService.login(user).then(function () {
-
-                console.log(loginService.isLoggedIn());
+                $scope.text = "Welcome!";
+                // $location.path("/");
 
                 if (!loginService.isLoggedIn()) {
                     $scope.text = "Wrong username or password, please try again."
                 }
+
             });
+
+
         };
 
         $scope.register = function () {

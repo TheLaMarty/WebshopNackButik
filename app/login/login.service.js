@@ -15,12 +15,21 @@ angular.module("login").factory("loginService", ["$http", "$location", function 
 
                 isLoggedIn = true;
                 loggedInCustomerId = response.data.customerId;
-            })
+            },
+            function(error)
+            {
+                if (error.status == -1) {
+                    errorMessage = "Unauthorized";
+                }
+            });
+
 
         },
         isLoggedIn: function () {
             return isLoggedIn;
 
         }
+
     };
-}]);
+}])
+;
