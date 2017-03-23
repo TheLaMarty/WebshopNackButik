@@ -1,0 +1,29 @@
+<!-- <div><input type="text" placeholder="Search" ng-model="userSearch"> -->
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="E.g jeans, shirt, blue" ng-model="userSearch">
+        </div>
+        <button type="submit" class="btn btn-default" href="/register">Filter</button>
+    </form>
+</div>
+
+
+</div>
+<div>
+    <select ng-model="selectedCategory" ng-options="category.name for category in categories"></select>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="gallery_product col-lg-4">
+            <img src="{{product.imageUrl}}"
+                 ng-repeat="product in products | filter:{categoryId: selectedCategory.id} | filter:{name: userSearch}"
+                 ng-click="productClicked(product.id)"
+                 class="img-responsive">
+        </div>
+    </div>
+    </section>
+</div>
+

@@ -1,0 +1,76 @@
+<div class="container">
+    <form class="form-horizontal" role="form">
+        <h2>Register</h2>
+        <div class="form-group">
+            <label for="firstName" class="col-sm-3 control-label">First name</label>
+            <div class="col-sm-9">
+                <input type="text" id="firstName" placeholder="First name" ng-model="firstName" class="form-control"
+                       autofocus>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="surname" class="col-sm-3 control-label">Surname</label>
+            <div class="col-sm-9">
+                <input type="text" id="surname" placeholder="Surname" ng-model="lastName" class="form-control">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email" class="col-sm-3 control-label">Email</label>
+            <div class="col-sm-9">
+                <input type="email" id="email" placeholder="Email" ng-model="email" class="form-control">
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="telephone" class="col-sm-3 control-label">Telephone</label>
+            <div class="col-sm-9">
+                <input type="number" id="telephone" placeholder="Telephone" ng-model="phone" class="form-control">
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="password" class="col-sm-3 control-label">Password</label>
+            <div class="col-sm-9">
+                <input type="password" id="password" placeholder="Password" ng-model="password" class="form-control">
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="address" class="col-sm-3 control-label">Address</label><br>
+            <div class="col-sm-9">
+            <input type="text" id="address" placeholder="Street address" ng-model="address" class="form-control">
+        </div>
+        </div>
+        <div class="form-group">
+            <label for="postalCode" class="col-sm-3 control-label">Postal code</label><br>
+            <div class="col-sm-9">
+            <input type="number" id="postalCode" placeholder="postalCode" ng-model="postalCode" class="form-control">
+        </div>
+        </div>
+        <div class="form-group">
+            <label for="city" class="col-sm-3 control-label">City</label><br>
+            <div class="col-sm-9">
+            <input type="text" id="city" placeholder="postalCode" ng-model="city" class="form-control">
+        </div>
+
+</div>
+        <div class="form-group">
+    <div class="col-sm-9 col-sm-offset-3">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox">I accept the <a href="#">terms of agreement</a>.
+            </label>
+        </div>
+    </div>
+</div>
+<div class="form-group">
+    <div class="col-sm-9 col-sm-offset-3">
+        <br>
+        <button type="submit" class="btn btn-primary btn-block" ng-click="createAccount()">Register</button>
+        <button type="submit" class="btn btn-primary btn-block" a class="btn btn-info" href="/">Cancel </button>
+
+    </div>
+</div>
+</form>
+</div>
+

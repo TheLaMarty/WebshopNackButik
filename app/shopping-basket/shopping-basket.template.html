@@ -1,0 +1,16 @@
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+    <table id="cart" class="table table-hover table-condensed">
+
+        <!-- COLUMNS FOR ORDER -->
+
+        <a ng-repeat="product in shoppingBasket track by $index">
+            <p>{{product.price}}</p>
+            <p>{{product.quantity}}</p>
+            <img src="{{product.imageUrl}}">
+        </a>
+
+</table>
+</div>
+</div>
+
