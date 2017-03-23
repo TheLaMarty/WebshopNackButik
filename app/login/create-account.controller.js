@@ -2,7 +2,7 @@ angular.module("login").controller("createAccountController", ["$scope", "$route
     function ($scope, $routeParams, $location, loginService) {
 
     $scope.newAccount = {};
-
+    
         $scope.createAccount = function () {
 
             var newAccount = {
