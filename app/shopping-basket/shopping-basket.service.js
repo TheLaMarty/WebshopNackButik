@@ -12,28 +12,24 @@ angular.module("shoppingBasket").factory("shoppingBasketService", ["$http", func
                 shoppingBasket.push(product);
             }
 
-
             else {
-                productExists = false;
                 for (var i = 0; i < shoppingBasket.length; i++) {
+                    productExists = false;
 
-                  // Om varukorgen innehåller id:t, öka quantity +1
+                    // Om varukorgen innehåller id:t, öka quantity +1
                     if (product.id == shoppingBasket[i].id) {
-                        shoppingBasket[i].quantity += 1;
                         productExists = true;
+                        shoppingBasket[i].quantity += 1;
                         break;
                     }
-                    // Om varukorgen inte innehåller id:t, öka quantity +1
-                    if (!productExists) {
-                        product.quantity = 1;
-                        shoppingBasket.push(product);
+                }
+                // Om varukorgen inte innehåller id:t, öka quantity +1
+                if (!productExists) {
+                    product.quantity = 1;
+                    shoppingBasket.push(product);
                 }
 
-                    }
-
-                }
-
-            console.log(shoppingBasket);
+            }
         },
 
         shoppingBasket: function () {

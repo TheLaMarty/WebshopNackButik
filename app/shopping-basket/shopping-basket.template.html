@@ -3,14 +3,13 @@
     <table id="cart" class="table table-hover table-condensed">
 
         <!-- COLUMNS FOR ORDER -->
-
-        <a ng-repeat="product in shoppingBasket track by $index">
-            <p>{{product.price}}</p>
+        <!-- track by $index-->
+        <div ng-repeat="product in shoppingBasket track by $index">
+            <p>{{product.price}} SEK</p>
             <p>{{product.quantity}}</p>
             <img src="{{product.imageUrl}}">
-        </a>
+        </div>
 
-</table>
+    </table>
 </div>
 </div>
-
