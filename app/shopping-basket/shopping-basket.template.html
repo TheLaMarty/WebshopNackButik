@@ -2,12 +2,15 @@
 <div class="container">
     <table id="cart" class="table table-hover table-condensed">
 
-        <!-- COLUMNS FOR ORDER -->
-        <!-- track by $index-->
         <div ng-repeat="product in shoppingBasket track by $index">
             <p>{{product.price}} SEK</p>
             <p>{{product.quantity}}</p>
             <img src="{{product.imageUrl}}">
+        </div>
+
+        <div>
+        <p>Total amount: {{orderTotal}} SEK</p>
+        <button type="button" class="btn btn-success" ng-click="placeOrder(shoppingBasket)">Place order</button>
         </div>
 
     </table>

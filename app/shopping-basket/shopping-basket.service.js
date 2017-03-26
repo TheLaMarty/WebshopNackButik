@@ -2,6 +2,7 @@ angular.module("shoppingBasket").factory("shoppingBasketService", ["$http", func
 
     var shoppingBasket = [];
     var productExists = false;
+
     return {
 
         addToBasket: function (product) {
@@ -28,12 +29,27 @@ angular.module("shoppingBasket").factory("shoppingBasketService", ["$http", func
                     product.quantity = 1;
                     shoppingBasket.push(product);
                 }
-
+                console.log(shoppingBasket)
             }
         },
 
         shoppingBasket: function () {
             return shoppingBasket;
+        },
+
+        getOrderTotal: function () {
+            var orderTotal = 0;
+            for (var i = 0; i < shoppingBasket.length; i++) {
+                orderTotal += shoppingBasket[i].price * shoppingBasket[i].quantity;
+            }
+            return orderTotal;
+        },
+
+        placeOrder: function(shoppingBasket) {
+
+
         }
+
+
     }
 }]);

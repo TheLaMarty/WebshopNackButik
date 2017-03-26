@@ -1,12 +1,16 @@
 .header {
     margin: auto;
     text-align: center;
+
 }
 
 .navbar-default {
     margin: auto;
     text-align: center;
     padding-left: 400px;
+    font-family: 'Open Sans', Oswald;
+
+
 
 }
 
@@ -25,22 +29,28 @@
     padding: 1rem;
     background-color: #efefef;
     text-align: center;
+    font-family: 'Open Sans', Oswald;
+
 }
 
 body {
     margin: 30px 0px;
+    font-family: 'Open Sans', Oswald;
 }
+
 .navbar-default .navbar-nav > li.dropdown:hover > a,
 .navbar-default .navbar-nav > li.dropdown:hover > a:hover,
 .navbar-default .navbar-nav > li.dropdown:hover > a:focus {
-    background-color: rgb(231, 231, 231);
-    color: rgb(85, 85, 85);
+/*    background-color: rgb(231, 231, 231);*/
+    background-color: #ffffff;
+color: white;
+/*    color: rgb(85, 85, 85);*/
 }
 li.dropdown:hover > .dropdown-menu {
     display: block;
 }
 
-.bg{background-color: #dfdfdf;}
+/*.bg{background-color: #dfdfdf;}*/
 .rwrapper{padding: 5px;}
 .rlisting{background-color: #fff;overflow: hidden;}
 .rlisting img{width: 100%}
@@ -99,11 +109,15 @@ li.dropdown:hover > .dropdown-menu {
     margin: 0 auto;
     background-color: #fff;
     border-radius: 0.3em;
+    font-family: 'Open Sans', Oswald;
+
 }
 
 [role="form"] h2 {
     margin-left: 5em;
     margin-bottom: 1em;
+    font-family: 'Open Sans', Oswald;
+
 }
 
 
@@ -141,4 +155,15 @@ li.dropdown:hover > .dropdown-menu {
     table#cart tfoot td{display:block; }
     table#cart tfoot td .btn{display:block;}
 
+}
+
+.inner {
+    border-top: 0;
+    border-left: solid 1px #c4c4c4;
+    border-bottom: solid 1px #c4c4c4;
+    border-right: solid 1px #c4c4c4;
+    box-shadow: 0 1px #c1c1c1;
+    padding-bottom: 1em;
+    padding: 1em;
+    height: auto;
 }
