@@ -45,10 +45,12 @@ angular.module("shoppingBasket").factory("shoppingBasketService", ["$http", func
             return orderTotal;
         },
 
-        placeOrder: function(shoppingBasket) {
 
 
+        placeOrder: function (order){
+            return $http.post("http://nackbutik.azurewebsites.net/api/order", order)
         }
+
 
 
     }

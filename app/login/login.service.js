@@ -1,7 +1,7 @@
 angular.module("login").factory("loginService", ["$http", "$location", function ($http) {
 
     var isLoggedIn = false;
-    var loggedInCustomerId;
+    var loggedInCustomer;
 
     return {
 
@@ -14,7 +14,7 @@ angular.module("login").factory("loginService", ["$http", "$location", function 
             return $http.post("http://nackbutik.azurewebsites.net/api/customer/login", user).then(function (response) {
 
                 isLoggedIn = true;
-                loggedInCustomerId = response.data.customerId;
+                loggedInCustomer = response.data;
             },
             function(error)
             {
@@ -28,6 +28,9 @@ angular.module("login").factory("loginService", ["$http", "$location", function 
         isLoggedIn: function () {
             return isLoggedIn;
 
+        },
+        loggedInCustomer: function () {
+            return loggedInCustomer;
         }
 
     };
