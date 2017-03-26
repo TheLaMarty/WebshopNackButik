@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81955d79-042d-45a5-b826-e8509d08a700" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/login/create-account.template.html" afterPath="$PROJECT_DIR$/app/login/create-account.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/login/login.template.html" afterPath="$PROJECT_DIR$/app/login/login.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/product/products-overview.template.html" afterPath="$PROJECT_DIR$/app/product/products-overview.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shopping-basket/order-confirmation.template.html" afterPath="$PROJECT_DIR$/app/shopping-basket/order-confirmation.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.controller.js" afterPath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.service.js" afterPath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.template.html" afterPath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/login/login.controller.js" afterPath="$PROJECT_DIR$/app/login/login.controller.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/app/login/login.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,8 +44,8 @@
       <file leaf-file-name="login.service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/login/login.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="240">
+              <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -151,7 +142,6 @@
         <option value="$PROJECT_DIR$/app/app.config.js" />
         <option value="$PROJECT_DIR$/app/product/product-details.template.html" />
         <option value="$PROJECT_DIR$/app/app.controller.js" />
-        <option value="$PROJECT_DIR$/app/login/login.service.js" />
         <option value="$PROJECT_DIR$/app/product/product-details.controller.js" />
         <option value="$PROJECT_DIR$/app/product/products-overview.template.html" />
         <option value="$PROJECT_DIR$/app/login/login.template.html" />
@@ -162,6 +152,7 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/app/shopping-basket/shopping-basket.template.html" />
         <option value="$PROJECT_DIR$/app/shopping-basket/shopping-basket.service.js" />
+        <option value="$PROJECT_DIR$/app/login/login.service.js" />
         <option value="$PROJECT_DIR$/app/login/login.controller.js" />
       </list>
     </option>
@@ -378,12 +369,12 @@
       <workItem from="1490266222161" duration="11426000" />
       <workItem from="1490301540340" duration="2510000" />
       <workItem from="1490386563218" duration="5099000" />
-      <workItem from="1490521964718" duration="1153000" />
+      <workItem from="1490521964718" duration="1337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70869000" />
+    <option name="totallyTimeSpent" value="71053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -752,8 +743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/login/login.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="240">
+          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -761,7 +752,7 @@
     <entry file="file://$PROJECT_DIR$/app/login/login.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

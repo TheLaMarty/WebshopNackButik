@@ -15,7 +15,6 @@ angular.module("login").controller("loginController", ["$scope", "$location", "l
             };
 
             loginService.login(user).then(function () {
-                $scope.text = "Welcome!";
                 // $location.path("/");
 
                 if (!loginService.isLoggedIn()) {
