@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="81955d79-042d-45a5-b826-e8509d08a700" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.controller.js" afterPath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.service.js" afterPath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.template.html" afterPath="$PROJECT_DIR$/app/shopping-basket/shopping-basket.template.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shopping-basket.service.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shopping-basket.service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/shopping-basket/shopping-basket.service.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="379">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <caret line="48" column="78" lean-forward="false" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -34,7 +36,7 @@
       <file leaf-file-name="create-account.template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/login/create-account.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
+            <state relative-caret-position="585">
               <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
@@ -54,18 +56,18 @@
       <file leaf-file-name="shopping-basket.template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/shopping-basket/shopping-basket.template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopping-basket.controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="shopping-basket.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/shopping-basket/shopping-basket.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -76,16 +78,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="251">
               <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -184,8 +176,8 @@
         <option value="$PROJECT_DIR$/app/product/products-overview.template.html" />
         <option value="$PROJECT_DIR$/app/product/product-details.template.html" />
         <option value="$PROJECT_DIR$/app/shopping-basket/shopping-basket.template.html" />
-        <option value="$PROJECT_DIR$/app/shopping-basket/shopping-basket.controller.js" />
         <option value="$PROJECT_DIR$/app/shopping-basket/shopping-basket.service.js" />
+        <option value="$PROJECT_DIR$/app/shopping-basket/shopping-basket.controller.js" />
       </list>
     </option>
   </component>
@@ -510,7 +502,7 @@
       <workItem from="1490266222161" duration="11426000" />
       <workItem from="1490301540340" duration="2510000" />
       <workItem from="1490386563218" duration="5099000" />
-      <workItem from="1490521964718" duration="3880000" />
+      <workItem from="1490521964718" duration="4863000" />
     </task>
     <task id="LOCAL-00001" summary="Öh what">
       <created>1490537937067</created>
@@ -519,11 +511,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490537937067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Order function">
+      <created>1490538518543</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490538518543</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73596000" />
+    <option name="totallyTimeSpent" value="74579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -573,7 +572,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Öh what" />
-    <option name="LAST_COMMIT_MESSAGE" value="Öh what" />
+    <MESSAGE value="Order function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Order function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,14 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -884,22 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/shopping-basket/shopping-basket.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/login/create-account.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/login/create-account.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -908,10 +884,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/shopping-basket/shopping-basket.controller.js">
+    <entry file="file://$PROJECT_DIR$/app/login/create-account.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="585">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -919,7 +903,23 @@
     <entry file="file://$PROJECT_DIR$/app/shopping-basket/shopping-basket.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <caret line="48" column="78" lean-forward="false" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shopping-basket/shopping-basket.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shopping-basket/shopping-basket.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
           <folding />
         </state>
       </provider>
