@@ -46,11 +46,26 @@ angular.module("shoppingBasket").factory("shoppingBasketService", ["$http", func
         },
 
 
+        placeOrder: function (shoppingBasket, customer) {
 
-        placeOrder: function (order){
+            var productsInShoppingBasket = [];
+
+            for (var i = 0; i < shoppingBasket.length; i++) {
+                productsInShoppingBasket.push({
+
+                    productId: product.id,
+                    quantity: product.quantity
+                });
+            }
+
+            var order = {
+
+                customerId: customer.customerId,
+                products: productsInShoppingBasket
+            };
+
             return $http.post("http://nackbutik.azurewebsites.net/api/order", order)
         }
-
 
 
     }
