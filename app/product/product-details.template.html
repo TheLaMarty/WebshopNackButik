@@ -4,9 +4,9 @@
     <div class="productprice">
         <p>{{product.description}}</p>
         <p>{{product.price}} SEK</p>
-        <div ng-hide="product.unitInStock == 0" a href="#" class="btn btn-success btn-sm" role="button" ng-click="addedToBasket()">Add to bag</a>
-            <p ng-show="product.unitInStock == 0">Product out of stock</p>
-        </div>
+        <div> <a ng-hide="product.unitsInStock == 0" href="#" class="btn btn-success btn-sm" role="button" ng-click="addedToBasket()">Add to bag</a></div>
+        <a ng-show="product.unitsInStock == 0">Product out of stock</a>
+
     </div>
     </div>
 </div>

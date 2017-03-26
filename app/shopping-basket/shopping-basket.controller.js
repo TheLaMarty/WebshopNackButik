@@ -15,8 +15,8 @@ angular.module("shoppingBasket").controller("shoppingBasketController", ["$scope
 
             for (var i = 0; i < shoppingBasket.length; i++) {
                 productsInShoppingBasket.push({
-                    productId: product.id,
-                    quantity: product.quantity
+                    productId: shoppingBasket[i].id,
+                    quantity: shoppingBasket[i].quantity
                 });
             }
 
@@ -30,6 +30,16 @@ angular.module("shoppingBasket").controller("shoppingBasketController", ["$scope
             console.log("please log in");
 
     };
+
+    $scope.goToLogIn = function () {
+        $location.path("/login")
+    };
+
+    $scope.isLoggedIn = function () {
+        return loginService.isLoggedIn();
+    };
+
+    console.log(loginService.isLoggedIn());
 
 /*            return $http.post("http://nackbutik.azurewebsites.net/api/order", order)
             console.log(order);
