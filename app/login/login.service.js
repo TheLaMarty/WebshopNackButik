@@ -31,6 +31,10 @@ angular.module("login").factory("loginService", ["$http", "$location", function 
         },
         loggedInCustomer: function () {
             return loggedInCustomer;
+        },
+        logOut: function () {
+            isLoggedIn = false;
+            loggedInCustomer = null;
         }
 
     };

@@ -39,7 +39,7 @@
 
 <div class="container">
     <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid" ng-controller="appController">
+        <div class="container-fluid" ng-controller="loginController">
 
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -54,8 +54,10 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/products">Shop</a></li>
-                <li><a href="/login">Login</a></li>
                 <li><a href="/shoppingBasket">Bag</a></li>
+                <li><a  ng-hide="isLoggedIn()" href="/login">Log In</a></li>
+                <li ><a ng-hide="!isLoggedIn()" ng-click="logOut()" href="/">Log Out</a></li>
+                <li><a ng-hide="!isLoggedIn()">Hello {{currentUser().firstName}}!</a> </li>
 
             </ul>
         </div>

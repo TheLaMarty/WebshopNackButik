@@ -15,7 +15,8 @@ angular.module("login").controller("loginController", ["$scope", "$location", "l
             };
 
             loginService.login(user).then(function () {
-                // $location.path("/");
+                $scope.text = "Welcome!";
+                $location.path("/");
 
                 if (!loginService.isLoggedIn()) {
                     $scope.text = "Wrong username or password, please try again."
@@ -23,12 +24,28 @@ angular.module("login").controller("loginController", ["$scope", "$location", "l
 
             });
 
+
         };
 
         $scope.register = function () {
 
             $location.path("/register");
 
+        };
+
+        $scope.isLoggedIn = function () {
+            return loginService.isLoggedIn();
+        };
+
+        $scope.currentUser = function () {
+            return loginService.loggedInCustomer();
+        };
+
+        $scope.logOut = function () {
+            loginService.logOut();
         }
+
+
+
 
     }]);
