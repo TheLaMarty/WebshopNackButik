@@ -23,7 +23,6 @@ angular.module("login").controller("loginController", ["$scope", "$location", "l
 
             });
 
-
         };
 
         $scope.register = function () {
@@ -31,6 +30,5 @@ angular.module("login").controller("loginController", ["$scope", "$location", "l
             $location.path("/register");
 
         }
-
 
     }]);

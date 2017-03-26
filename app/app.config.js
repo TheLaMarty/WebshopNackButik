@@ -2,8 +2,8 @@ angular.module("app").config(["$routeProvider", "$locationProvider", function ($
     $routeProvider
 
         .when("/", {
-            templateUrl: "app/app.template.html",
-            controller: "appController"
+            templateUrl: "app/product/products-overview.template.html",
+            controller: "productController"
 
         })
 
